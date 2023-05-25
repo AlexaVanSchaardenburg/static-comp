@@ -1,0 +1,49 @@
+.flex {
+    display: flex;
+    align-items: center;
+    /* border: blue */
+}
+
+nav {
+    background: #454851;
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+}
+
+main {
+    height:100%;
+}
+
+.nav-icon {
+    height: 20px;
+    /* border: blue; */
+}
+
+.search-icon {
+    height: 30px;
+}
+
+p {
+   margin-left: 5px;
+}
+
+#search-bar {
+    width: 100%
+}
+
+.social-button {
+    color: white;
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    border: none;
+}
+
+#facebook-button {
+    background: blue;
+}
+
+#twitter-button {
+    background: lightblue; 
+}

@@ -1,83 +1,172 @@
 <head>
-
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+<body class="flex">
     <nav>
-        <img> <!-- image of person goes here -->
-        <div>
-            <!-- flex -->
-            <p><!-- name here --></p>
-            <img> <!-- little down arrow next to name here-->
-        </div>
+        <img src="./assets/example.png"> <!-- image of person goes here -->
+        <div class="flex">
+            <p>Newton Barley<p>
+            <img id="down-arrow" src="">
+        </div class="flex">
         <h3>Main</h3>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="home-icon" src="./assests/home.png">
             <p>Home</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="jobs-icon" src="./assests/jobs-icon.png">
             <p>Jobs</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="resumes-icon" src="./assests/resume-icon.png">
             <p>Resumes</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="tasks-icon" src="./assests/tasks-icon.png">
             <p>Tasks</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="calendar-icon" src="./assests/calendar-icon.png">
             <p>Calendar</p>
         </div>
         <h3>Admin</h3>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="users-icon" src="./assests/users-icon.png">
             <p>Users</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="locations-icon" src="./assests/location-icon.png">
             <p>Locations</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="workflows-icon" src="./assests/workflow-icon.png">
             <p>Workflows</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="job-boards-icon" src="./assests/job-board-icon.png">
             <p>Job Boards</p>
         </div>
-        <div>
-            <!-- flex -->
-            <img> <!--icon-->
+        <div class="flex">
+            <img class="nav-icon" id="social-icon" src="./assests/social-icon.png">
             <p>Social</p>
         </div>
         <h3>Categories</h3>
+        <input type="checkbox" id="vehicle1">
+            <label for="vehicle1"> Administrative</label><br>
+        <input type="checkbox" id="vehicle1">
+            <label for="vehicle1"> Design</label><br>
+        <input type="checkbox" id="vehicle1">
+            <label for="vehicle1"> Excecutive</label><br>
+        <input type="checkbox" id="vehicle1">
+            <label for="vehicle1"> Human Resources</label><br>
     </nav>
     <main>
-        <div>
-            <!-- search bar -->
+        <div class="flex" id="search-bar">
+            <img class="search-icon" id="menu-icon" src="./assests/menu-icon.png">
+            <input id="search-bar"type="text" placeholder="Search for a job or resume">
+            <img class="search-icon" id="add-user-icon" src="./assests/add-user-icon.png">
+            <img class="search-icon" id="web-page-icon" src="./assests/web-page-icon.png">
+            <img class="search-icon" id="apps-icon" src="./assests/apps-icon.png">
         </div>
-        <div>
-            <!-- Job title -->
+        <div id="job-header">
+            <h1>Customer Service Representative</h1>
+            <div class="flex">
+                <img src="./assests/location-icon.png">
+                <h2>San Francisco, CA</h2>
+                <a href="url">Preview this post</a>
+            </div>
         </div>
-        <div>
+        <div class="flex">
             <!-- Tabs for views -->
+            <div class="view-option">
+                <p>SUMMARY</p>
+            </div>
+            <div class="view-option">
+                <p>APPLICANTS</p>
+            </div>
+            <div class="view-option">
+                <p>JOB BOARD</p>
+            </div>
+            <div class="view-option">
+                <p>INTERVIEWS</p>
+            </div>
+            <div class="view-option">
+                <p>ACTIVITY</p>
+            </div>
+            <div class="view-option">
+                <p>BROADCAST</p>
+            </div>
+            <div class="view-option">
+                <p>NOTIFICATIONS</p>
+            </div>
         </div>
-        <div>
-            <!-- graphs -->
+        <div class="flex">
+            <img class="graph-example" src="./assests/example.png">
+            <img class="graph-example" src="./assests/example.png">
         </div>
-        <div>
+        <div class="flex">
             <!-- Job desciption and sharing info -->
+            <div>
+                <!-- job description table -->
+                <div class="flex">
+                    <h3>JOB DESCRIPTION</h3>
+                    <button>EDIT</button>
+                </div>
+                <div class="flex">
+                    <h3>POSITION TITLE</h3>
+                    <p>Customer Service Representative</p>
+                </div>
+                <div class="flex">
+                    <h3>LOCATION</h3>
+                    <p>San Francisco, CA</p>
+                </div>
+                <div class="flex">
+                    <h3>EMPLOYMENT TYPE</h3>
+                    <p>Full-time</p>
+                </div>
+                <div class="flex">
+                    <h3>EXPERIENCE</h3>
+                    <p>Mid-level</p>
+                </div>
+                <div class="flex">
+                    <h3>STATUS</h3>
+                    <p>Open</p>
+                </div>
+                <div class="flex">
+                    <h3>DESCRIPTION</h3>
+                    <p>The customer service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle, helping the bidness reduce customer service wait times while doing a bckhand spring eating a ham sandwhich</p>
+                </div>
+                <div class="flex">
+                    <h3>HIRING LEAD</h3>
+                    <img src="./assests/example.png">
+                    <p>Tom Tizzy</p>
+                </div>
+                <div class="flex">
+                    <h3>APPROVED SALARY</h3>
+                    <p>$58,000</p>
+                </div>
+            </div>
+            <div>
+                <!-- links and socials -->
+                <button class="social-button" id="facebook-button">Post to Facebook</button>
+                <button class="social-button" id="twitter-button">Tweet this Job</button>
+                <button class="social-button" id="linkedin-button">Post to LinkedIn</button>
+                <div class="flex">
+                    <img class="nav-icon" src="./assests/link-icon.png">
+                    <p>Link to this Job</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consector adpis cing elit. Integer molis eget vestipend</p>
+                <div class="flex">
+                    <img class="nav-icon" src="./assests/web-page-icon.png">
+                    <p>Use the Button Widget</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consector adpis cing elit. Integer molis eget vestipend</p>
+                <div class="flex">
+                    <img class="nav-icon" src="./assests/send-icon.png">
+                    <p>Upload Resumes by Email</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consector adpis cing elit. Integer molis eget vestipend</p>
+            </div>
         </div>
     </main>
 </body>
