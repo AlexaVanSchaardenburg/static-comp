@@ -1,8 +1,25 @@
+/* all */
+
 .flex {
     display: flex;
     align-items: center;
-    /* border: blue */
 }
+
+p {
+   margin-left: 5px;
+}
+
+.grey-background {
+    background: #B7C9E2;
+    padding: 35px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+/* nav elements */
 
 nav {
     background: #454851;
@@ -11,26 +28,100 @@ nav {
     height: 100%;
 }
 
-main {
-    height:100%;
+#profile-pic{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
 }
 
 .nav-icon {
     height: 20px;
-    /* border: blue; */
+}
+
+/* main */
+
+main {
+    width: 80%;
+}
+
+/* search */
+
+#search-bar {
+    width: 100%;
+    height: 52px;
 }
 
 .search-icon {
     height: 30px;
 }
 
-p {
-   margin-left: 5px;
+.search {
+    padding: 10px;
+    border: 1px #B7C9E2 solid; 
 }
 
-#search-bar {
-    width: 100%
+/* job header */
+
+#job-header {
+    padding: 30px;
 }
+
+#job-title {
+    margin: 0px;
+}
+
+#title-location-icon {
+    height: 15px;
+}
+
+.job-header-icons {
+    height: 25px;
+    padding: 15px;
+    border: 1px #B7C9E2 solid;
+    border-radius: 30px;
+}
+
+/* tabs */
+
+#tabs {
+    margin-right: 10%;
+}
+
+.view-option{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 7px;
+}
+
+/* graphs */
+
+/* table */
+
+.table {
+    background: white;
+    padding: 0 10px;
+    align-items: flex-start;
+    border: 1px #B7C9E2 solid
+}
+
+h3{
+    font-size: 13px;
+    color: #454851;
+}
+
+#table-title{
+    background: #454851;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+#hiring-lead-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+/* socials/sharing */
 
 .social-button {
     color: white;
@@ -41,9 +132,13 @@ p {
 }
 
 #facebook-button {
-    background: blue;
+    background: #4267B2;
 }
 
 #twitter-button {
-    background: lightblue; 
+    background: #1DA1F2; 
+}
+
+#linkedin-button {
+    background: #0077B5; 
 }
